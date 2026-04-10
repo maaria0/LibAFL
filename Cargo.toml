@@ -212,6 +212,8 @@ used_underscore_binding = "allow"
 # Deny
 broken_intra_doc_links = "deny"
 
+[workspace.metadata.cargo-machete]
+ignored = ["strum", "log"]
 
 [profile.release]
 lto = true
